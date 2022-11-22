@@ -60,7 +60,7 @@ public class ConfirmMessage {
         Channel channel = RabbitMqUtils.getChannel();
         channel.confirmSelect(); // 开启发布确认
         long start = System.currentTimeMillis();
-        //批量确认消息大小
+        // 批量确认消息大小
         int batchSize = 100;
         for (int i = 0; i < MESSAGE_COUNT; i++) {
             String message = i + "";
