@@ -20,7 +20,7 @@ public class DirectLogs {
         while (scanner.hasNext()) {
             String message = scanner.next();
             channel.basicPublish(EXCHANGE_NAME, "info", null, message.getBytes("UTF-8"));
-            System.out.println("生产者发出消息：" + message);
+            System.out.println(" 生产者发出消息：" + message);
         }
     }
 }

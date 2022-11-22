@@ -7,7 +7,7 @@ import com.ssm.rabbitmq.utils.RabbitMqUtils;
 
 /**
  * @author shaoshao
- * @Date 2022/11/22 19:56
+ * @Date 2022/11/22  19:56
  * @Description:
  */
 public class ReceiveLogsDirect02 {
